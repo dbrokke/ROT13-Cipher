@@ -1,6 +1,9 @@
 /* *********************************************
-Author: Danny Brokke (dannybrokke@live.com)
-/* *********************************************
+ * Author: Danny Brokke (dannybrokke@live.com)
+ * Desc: C program that reads a file in, applies
+ * the ROT13 cipher to every character, then 
+ * writes the enciphered text back to the file.
+*/ *********************************************
 
 // The rot13 function prototype
 void rot13( const char *input, char *output);
