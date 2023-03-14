@@ -1,5 +1,6 @@
 /* *********************************************
 Author: Danny Brokke (dannybrokke@live.com)
+/* *********************************************
 
 // The rot13 function prototype
 void rot13( const char *input, char *output);
