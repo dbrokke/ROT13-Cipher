@@ -1,3 +1,6 @@
+/* *********************************************
+Author: Danny Brokke (dannybrokke@live.com)
+
 // The rot13 function prototype
 void rot13( const char *input, char *output);
 // Included libraries
@@ -9,7 +12,6 @@ void rot13( const char *input, char *output);
 #define IN_SIZE     40          // 40 characters per data line
 
 /* ==============================================
-
 main_method
 
 This is my main method for the assignment. 
@@ -46,7 +48,7 @@ int main( int ac, char *av[] )
 
         // Creating two character arrays that will act as strings
         // to hold our current input/output values for that line.
-		char input[IN_SIZE];
+	char input[IN_SIZE];
         char output[IN_SIZE];
         // Using fgets to load the array with its max amount of objects, 
         // based around where the readPtr is reading.
@@ -69,8 +71,8 @@ void rot13(const char *input, char *output)
             output[i] = input[i];
         }
         
-		// Looping through each character in the array
-		for (int i = 0; i < IN_SIZE; i++)
+	// Looping through each character in the array
+	for (int i = 0; i < IN_SIZE; i++)
         {
 
             int compare = tolower(input[i]);
